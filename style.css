@@ -1,0 +1,29 @@
+:root {
+    --bg-color : rgb(30, 25, 39);
+    --main-color : rgb(196, 196, 196);
+    --secondary-color : rgb(150, 150, 150);
+    --large-font: 40px;
+    --mid-font: 15px;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+h1 {
+    color: var(--main-color);
+    font-size: var(--large-font);
+    text-align: center;
+}
+
+p {
+    color: var(--secondary-color);
+    font-size: var(--mid-font);
+    text-align: center;
+}
+
+hr {
+    width: 20%;
+    color: rgb(125, 86, 199);
+}
+
